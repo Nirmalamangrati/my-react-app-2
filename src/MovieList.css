@@ -1,0 +1,35 @@
+.movies {
+  padding: 20px;
+}
+
+.movie-list {
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  overflow-x: auto; 
+  padding: 10px 0;
+}
+.h2{
+  text-align: center;
+}
+
+.movie-card {
+  flex: 0 0 auto;    
+  width: 200px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  background: white;
+  text-align: center;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.movie-card h3 {
+  padding: 10px 0;
+  font-size: 1.1rem;
+  color: #333;
+}
